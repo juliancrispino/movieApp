@@ -58,7 +58,7 @@ const Main = () => {
                         {
                             tipos.map((el) => {
                                 return (
-                                    <li><a href="#" name={el} onClick={(e) => { getData(e.target.name) }}>{el}</a></li>
+                                    <li><a href='/#' name={el} onClick={(e) => { getData(e.target.name) }}>{el}</a></li>
                                 )
                             })
                         }
